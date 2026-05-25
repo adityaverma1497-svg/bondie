@@ -1,0 +1,43 @@
+{
+  "name": "Bondie - Friendship Social App",
+  "short_name": "Bondie",
+  "description": "Connect with friends, share moments, build bonds.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f4fb",
+  "theme_color": "#7F77DD",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "categories": ["social", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Feed",
+      "url": "./index.html#feed",
+      "description": "View your friendship feed"
+    },
+    {
+      "name": "Messages",
+      "url": "./index.html#messages",
+      "description": "Open messages"
+    },
+    {
+      "name": "Invite Friends",
+      "url": "./index.html#friends",
+      "description": "Share your Bondie invite link"
+    }
+  ]
+}
